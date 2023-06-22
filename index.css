@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: opx;
+}
+body {
+    background-color: lightpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container {
+    height: 600px;
+    width: 800px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#img {
+    height: 800px;
+    width: 800px;
+    border-radius: 30px;
+    background: url('./design/desktop-design.jpg') center;
+}
+#bold {
+    color:crimson;
+    font-weight: 900;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+#thin {
+    color: red;
+    
+}
